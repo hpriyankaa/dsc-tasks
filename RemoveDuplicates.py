@@ -6,5 +6,5 @@ def removeDuplicate(nums):
         else:
             i += 1 
     return nums
-num=removeDupli([2,3,4,4,6,7,7])
-print(num)
+num=[2,3,4,4,6,7,7]
+print(removeDuplicate(num))
